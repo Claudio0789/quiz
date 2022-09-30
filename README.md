@@ -10,3 +10,5 @@ Modal que só é permitido fechar ele se aperta no "X" na parte superior e no bo
 Mostra a soma e a procentagem de questões de acertou;
 
 Mostra uma mensagem dependendo da quantidade de questões que o(a) usuário(a) acertou.
+
+Link:  https://claudio0789.github.io/quiz/
