@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    
+    <header class="header d-flex bg-dark text-center">
+      <div class="d-flex justify-content-center container w-100">
+        <h1 class="m-auto text-white">Quiz</h1>
+      </div>
+    </header>
+
+    <section class="d-flex justify-content-center align-items-center">
+
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Começar o quiz
+      </button>
+
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="progress fixed-top">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"></div>
+        </div>
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h5 class="modal-title text-white fs-3" id="staticBackdropLabel">Quiz</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="questionArea">
+                <div class="question text-white fs-6">...</div>
+                <div class="options">
+                    
+                </div>
+            </div>
+            <div class="scoreArea">
+              <img src="assets/images/prize.png" class="prizeImage" />
+              <div class="scoreText1">Parabéns!</div>
+              <div class="scorePct">Acertou 99%</div>
+              <div class="scoreText2">Você respondeu 9 questões e acertou 8.</div>
+              <button>Fazer novamente</button>
+          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="fixed-bottom bg-dark text-white d-flex justify-content-center align-items-center">Criado por Cláudio</footer>
+    
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/questions.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
