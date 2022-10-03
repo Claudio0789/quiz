@@ -11,4 +11,4 @@ Mostra a soma e a procentagem de questões de acertou;
 
 Mostra uma mensagem dependendo da quantidade de questões que o(a) usuário(a) acertou.
 
-Link:  https://claudio0789.github.io/quiz/
+Link: https://claudio0789.github.io/quiz/
